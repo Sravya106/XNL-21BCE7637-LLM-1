@@ -1,4 +1,4 @@
-# Stock Price Prediction with BiLSTM, Flask, and React
+# End to End Stock Price Prediction with BiLSTM, Flask, and React
 
 ## Overview
 
