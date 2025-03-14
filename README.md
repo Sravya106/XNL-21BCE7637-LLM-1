@@ -25,3 +25,21 @@ Backend: Flask, TensorFlow/Keras, Alpha Vantage API
 Database: JSON (Local), Alpha Vantage API (Live Data)
 
 Authentication: Firebase OAuth
+
+## Why BiLSTM?
+
+1. Better Context Understanding: Since it processes stock price trends in both past and future directions, it learns patterns more efficiently.
+
+2. Enhanced Predictive Accuracy: By considering both historical and future trends, the model improves prediction reliability.
+
+3. Effective for Sequential Data: Stock prices follow sequential dependencies, making BiLSTM ideal for time-series forecasting.
+
+## Usage
+
+Sign In: Users must sign in with Google to access stock data.
+
+View Stock Data: Displays historical stock prices in a line chart.
+
+Predict Future Price: Uses BiLSTM to forecast the next month’s closing price.
+
+Sign Out: Users can sign out at any time.
